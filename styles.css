@@ -1,0 +1,29 @@
+h1 {
+    color: blue;
+    font-family: Arial Black, sans-serif, Verdana, Georgia, 'Times New Roman';
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0%;
+  }
+
+  h3 {
+    background-color: #00F5F5; 
+    text-align: left; 
+    color: #000000; 
+    font-size: 24px; 
+    font-family: Arial black, sans-serif; 
+    margin: 0%;
+  }
+  
+  ul{
+    font-size: 16px; 
+  
+  }
+  ol{
+    font-size: 16px; 
+    margin: 05px; 
+  }
+
+ 
+  
