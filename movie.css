@@ -1,70 +1,78 @@
 body{
     margin: 0;
-    background-image: url("http://mumstudents.org/cs472/2018-05-RS/Labs/2/background.gif");
+    background-image: url("./images/background.png");
 }
-h1backgroundimage {
+.h1backgroundimage {
     text-align: center;
-    background-image: url('./images2/bannerbg.png');
+    background-image: url('./images/background.png');
     height: 50px;
 }
-green{
-    border-style: solid;
-    background-color: white;
-    border-color:white;
-    border-width: 10px;
-}
-red{
-    text-align: right;
-    background-color: #A8F0F0;
-   }
-   home{
-    vertical-align: middle;
-   }
-redb{
-    margin: 5px;
-    font-size: 14pt;
-}
-date{
-    border-color:purple;
-    border-bottom: dashed 2px;
+
+.box {
+    panding:10px;
+    background-color:#E8DC9B;
+    font-weight: 8;
+    border-color: gray;
+    border-radius: 10px;
+    border-width: 2px;
+    pading: 10px;
+    border: 2px solid gray;    
 }
 
-friends{
-    border-style: solid;
-    border-color: rgb(49, 218, 218);;
-    border-width: 4px;
-    margin: 7px 0px 0px 0px; 
-    text-align: left; 
-    background-color: #A8F0F0;
-    border-radius: 15px;
-
-    float: left;
-    width: 23%;
+.boxtest{
+    display: flex;
+    border-top-left-radius: 16px;
+    padding-left: 12px;
+    height: auto;
+    min-height: 100% !important;
+    background: local repeat-x url("../images/rbg.png");
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+    align-items: center;
 }
 
-blue{
-    border-style: solid;
-    border-color: #C2E9E9;
-    border-width: 4px;
-    margin: 10px 0px 0px 0px;
-    text-align: justify;
-    overflow: auto;
-    padding: 5px;
-    background-color: rgb(217, 238, 238); 
-    border-radius: 15px;
-    margin-left: 20%;
-}
-/* *:hover{
+.hover{
     color: yellow;
-} */
-image{
+} 
+.image{
     float:right;
 }
 validator{
     text-align: left;
 }
- blueb{
-    border-style: solid;
-    border-color:blue;
-    border-width: 5px;
-} 
+
+.wrapper{
+    /* border: solid 4px gray ; */
+    border-radius: 20px;
+    width: 800px; 
+    margin: auto; 
+    border: 2px solid gray; 
+    height: 1112px;
+ 
+}
+.green{
+    background-color: rgb(135, 196, 135);
+}
+#headerimage{
+    width: 100%;
+
+}
+#movienameheader{
+    text-align: center;
+}
+
+.vali{
+    display: inline;
+    right: 5px;
+    bottom: 5px;
+    position: fixed;
+   
+}
+
+.Two{
+    margin: 3mm;
+    height: 860px;
+}
+
+
