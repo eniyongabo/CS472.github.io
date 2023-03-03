@@ -1,10 +1,10 @@
 body{
     margin: 0;
-    background-image: url("./images/background.png");
+    background-image: url("../images/background.png");
 }
 .h1backgroundimage {
     text-align: center;
-    background-image: url('./images/background.png');
+    background-image: url('../images/background.png');
     height: 50px;
 }
 
