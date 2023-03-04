@@ -1,0 +1,30 @@
+.background{
+    background-color:rgb(207, 210, 240);
+    width: 60%;
+}
+.home{
+vertical-align: middle;
+}
+.appform{
+    width:400px;
+background-color: plum;
+text-align: center;
+font-size: 2em;
+border-radius: 20px;
+padding :20px;
+margin:8%;
+box-shadow:rgba(0,0,0,0);
+}
+
+
+p{
+columns: 1;
+text-align: justify;
+}
+
+input[type="text"]{
+font-family: Arial;
+background-color:lightgrey;
+color: Black;
+font-weight: bold;
+}
