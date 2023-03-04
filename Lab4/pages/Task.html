@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task List</title>
+</head>
+<body>
+
+  <h1>Task List</h1>
+
+  <form>
+    <label for="task">Task:</label>
+    <input type="text" id="task" name="task"><br><br>
+
+    <button type="button" id="add-task">Add Task</button>
+    <button type="button" id="clear-task">Clear Task</button><br><br>
+
+    <label for="task-list">Task List:</label>
+    <textarea id="task-list" name="task-list" rows="10" cols="50"></textarea>
+  </form>
+
+  <script>
+    const addTaskButton = document.getElementById("add-task");
+    const clearTaskButton = document.getElementById("clear-task");
+    const taskListTextarea = document.getElementById("task-list");
+    const taskInput = document.getElementById("task");
+
+    addTaskButton.addEventListener("click", function() {
+      const newTask = taskInput.value;
+      if (newTask.trim() !== "") {
+        taskListTextarea.value += "- " + newTask + "\n";
+        taskInput.value = "";
+      }
+    });
+
+    clearTaskButton.addEventListener("click", function() {
+      taskListTextarea.value = "";
+      taskInput.value = "";
+    });
+  
+</script>
+</body>
+</html>
