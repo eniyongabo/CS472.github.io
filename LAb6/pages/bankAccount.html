@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<title>Document</title>
+</head>
+
+<body>
+    <h1>Closure Object Factory Method</h1>
+    Account Name:
+    <input id="account_name" type="text"><br>
+
+     Deposit:
+    <input id="amount" type="text" > <br>
+
+    <button onclick="createNewAccount()">Create new account</button> <br>
+
+    <textarea name="display" id="display" cols="30" rows="10"></textarea>
+
+
+<script>
+    var accountCreator = (function () {
+        var accountName;
+        var amount;
+
+        return {
+            createAccount: function (name, amt) {
+                accountName = name;
+                amount = amt;
+                return {name: accountName, balance: amount};
+            }
+        }
+    })();
+
+    var accountInfoList = [];
+
+    function createNewAccount() {
+        var newAccount = accountCreator.createAccount(document.getElementById("account_name").value, document.getElementById("amount").value);
+        accountInfoList.push(newAccount);
+        document.getElementById('display').value = '';
+        for (account of accountInfoList) {
+            document.getElementById('display').value += `Account name: ${account.name}, Balance: ${account.balance}\n`
+        }
+    }
+</script>
+</body>
+</html>
