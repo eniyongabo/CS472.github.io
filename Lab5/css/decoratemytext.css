@@ -1,0 +1,23 @@
+.body{
+    font-family: Arial;
+    letter-spacing: -1px;
+}
+
+.h1{
+font-weight: 900;
+   font-style: italic;
+}
+#textarea{
+   width: 800px;
+
+   font-size: 20pt;
+   text-align: center;
+   
+}
+l.egend{
+   font-size: large;
+   font-weight: bold;
+}
+.label #checkbox{
+   font-family: Arial, Helvetica, sans-serif;
+}
