@@ -1,12 +1,26 @@
-html {
-    /* The viewer implements a custom pinch zoom. */
-    touch-action: pan-x pan-y;
-  }
-  
-  body {
-    background-color: rgb(82, 86, 89);
-    color: var(--primary-text-color);
-    line-height: 154%;
-    margin: 0;
-  }
-  
+.common{
+	float: left;
+}
+.entry1{
+	width:25%;
+	margin-right: 100px;
+	margin-left:20px;
+			/*border:1px solid red; */
+}
+.report{
+	width:40%;
+	margin-left: 20px;
+	/*display: none;*/
+	/*border:2px solid blue;*/
+}
+#rep{
+	display: none;
+}
+.superfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.home{
+	vertical-align: middle;
+}
