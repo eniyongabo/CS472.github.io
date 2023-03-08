@@ -1,0 +1,50 @@
+body {
+    background-color: #CCCCFF;
+    font-size: 14pt;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32pt;
+}
+
+select {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+button {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.validation {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#display {
+    width: 90%;
+    height: 400px;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.controlsContainer {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+}
+
+fieldset{
+    border: 5px black solid;  
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
