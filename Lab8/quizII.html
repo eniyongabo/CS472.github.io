@@ -1,0 +1,53 @@
+<!-- Q1
+
+ code fragment 1 $("li").each(function(idx, e) {
+$(e).css(“color”, “yellow”); });
+code fragment 2 $("li").each(function() {
+$(this).css(“color”, “yellow”); });
+code fragment 3 $("li").each(function(idx) {
+$(this).css(“color”, “yellow”); }); ANSWER=>
+
+Asw/
+All three of them are equivalent, 
+because all of them tells that the css operation is applied for every element of the list. -->
+
+
+<!-- Q2
+    
+    <div>no ul here </div> <div>
+    This does contain a ul. <ul>
+    <li>the first item</li> 
+    <li>the second item</li>
+    </ul> 
+    </div>
+
+    <script>
+
+    </body> 
+    
+    ANSWER=>
+    
+    <script>
+    $(document).ready(function(){
+    $(‘div ul’).css(“color”,”blue”); });
+       </script> -->
+
+       <!-- 
+        
+        <div><h1> JQuery Core</h1></div> HTML:
+<!DOCTYPE html> <html>
+<head>
+<meta Charset=”utf-8” > <title>JS Bin</title>
+</head> 
+<body> </body>
+</html>
+ ANSWER=> 
+ 
+ <script>
+$(document).ready(function(){ 
+    $(“body”).append(
+        “<div>
+            <h1>jQuery Core</h1>
+        </div>”);
+});
+ </script> -->
